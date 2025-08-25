@@ -1,0 +1,105 @@
+ body {
+     background-color: #ffffff;
+ }
+
+ .hero {
+     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../extraimages/helpbanner.jpg') center/cover no-repeat;
+     padding: 100px 20px;
+     margin-top: 100px;
+     color: white;
+     text-align: center;
+ }
+
+ .section-title {
+     font-weight: 700;
+     margin-bottom: 1.5rem;
+ }
+
+ .support-box {
+     background: #fff;
+     border-radius: 12px;
+     padding: 25px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+     height: 100%;
+     border: 1px solid #000000;
+ }
+
+ .accordion-button {
+     font-weight: 600;
+ }
+
+ .faq-icon {
+     font-size: 22px;
+     margin-right: 10px;
+ }
+
+ /* Help & Support */
+
+ .accordion-button {
+     font-weight: 600;
+     background: linear-gradient(145deg, #ffffff, #f1f1f1);
+     color: #212529;
+     border-radius: 0.6rem;
+     transition: all 0.3s ease;
+     padding: 1rem 1.25rem;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+     border: 1px solid #000000;
+
+ }
+
+ .accordion-button:hover {
+     background: #eef5ff;
+     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+ }
+
+ .accordion-button:not(.collapsed) {
+     background-color: #e6f0ff;
+     color: #E0101B;
+     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.08);
+ }
+
+ .accordion-button::after {
+     background-image: none;
+     content: "\f4fe";
+     font-family: "bootstrap-icons";
+     font-size: 1.4rem;
+     margin-left: auto;
+     color: #E0101B;
+     transition: transform 0.3s ease;
+
+ }
+
+ .accordion-button:not(.collapsed)::after {
+     background-image: none;
+     content: "\f2ea";
+     transform: rotate(180deg);
+ }
+
+ .accordion-item {
+     background-color: #fff;
+     border: none;
+     border-radius: 0.6rem;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+     margin-bottom: 1.2rem;
+     overflow: hidden;
+ }
+
+ .accordion-body {
+     background-color: #fdfdfd;
+     border-top: 1px solid #dee2e6;
+     border-radius: 0 0 0.5rem 0.5rem;
+     padding: 1.1rem 1.25rem;
+     font-size: 15.5px;
+     color: #495057;
+ }
+
+ .btnss {
+     background-color: #E0101B;
+     color: #ffffff;
+ }
+
+ .btnss:hover {
+     background-color: transparent;
+     color: #000000;
+     border: 2px solid #E0101B;
+ }
