@@ -218,7 +218,7 @@ CREATE TABLE `users` (
   `email` varchar(150) NOT NULL,
   `password` varchar(255) NOT NULL,
   `user_type` enum('buyer','seller','admin') NOT NULL DEFAULT 'buyer',
-  `verified` tinyint(1) DEFAULT 0,
+  `verified` tinyint(1) DEFAULT 1,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
   `phone` varchar(20) NOT NULL,
   `gender` enum('male','female','other') NOT NULL,
